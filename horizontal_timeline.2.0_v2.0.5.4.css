@@ -66,7 +66,7 @@ body {
 	bottom: 13%;
 	height: 5px;
 	/* width will be set using JavaScript */
-	background: #000;
+	background: white;
 	-webkit-transition: -webkit-transform 0.4s;
 	-moz-transition: -moz-transform 0.4s;
 	transition: transform 0.4s;
@@ -79,7 +79,7 @@ body {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #002bff;
+	background-color: #purple;
 	-webkit-transform: scaleX(0);
 	-moz-transform: scaleX(0);
 	-ms-transform: scaleX(0);
@@ -102,7 +102,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	padding-bottom: 15px;
-	color: #000;
+	color: white;
 	/* Fix bug on Safari - text flickering while timeline translates */
 	-webkit-transform: translateZ(0);
 	-moz-transform: translateZ(0);
@@ -120,7 +120,7 @@ body {
 	height: 12px;
 	width: 12px;
 	border-radius: 50%;
-	background-color: #000;
+	background-color: white;
 	-webkit-transition: background-color 0.3s, border-color 0.3s;
 	-moz-transition: background-color 0.3s, border-color 0.3s;
 	transition: background-color 0.3s, border-color 0.3s;
@@ -131,7 +131,7 @@ body {
 }
 .horizontal-timeline .events a.selected::after, 
 .horizontal-timeline .events a.older-event::after {
-	background-color: #002bff;
+	background-color: #purple;
 }
 .horizontal-timeline .events a:hover {
 	text-decoration: underline;
@@ -156,11 +156,11 @@ body {
 .timeline-navigation a {
 	display: inline;
     	text-decoration: none;
-    	color: #000;
+    	color: white;
 }
 .timeline-navigation a:hover {
-	color: #002bff;
-	border-color: #002bff;
+	color: #purple;
+	border-color: #purple;
 }
 
 /* Inactive */
@@ -197,7 +197,7 @@ body {
   	width: 0%;
   	max-width: 100%;
   	height: inherit;
-  	background: #002bff;
+  	background: #purple;
 }
 .horizontal-timeline .events-content li[data-horizontal-timeline],
 /* data-date deprecated as of v2.0.5.alpha.3 */
